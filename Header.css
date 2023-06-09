@@ -1,0 +1,17 @@
+.navbar .dropdown-toggle::after {
+  content: none;
+}
+
+.sub-dropdown {
+  display: flex;
+  position: absolute;
+  color: #955ec0;
+  padding: 5px;
+  top: 100%;
+  margin-top: 2px;
+}
+
+.custom-table{
+  background-color: #21214b;
+}
+

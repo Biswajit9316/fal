@@ -1,0 +1,7 @@
+.bg {
+  background: linear-gradient(45deg, #BB8DEF, #DCF9FF);;
+  min-height: 100vh;
+  background-position: center;
+  overflow: auto;
+}
+  

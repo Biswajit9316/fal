@@ -1,0 +1,130 @@
+.h {
+  width: 100%;
+  background: #6f4bc4;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.table-wrapper {
+  background: linear-gradient(45deg, #bb8def, #dcf9ff);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.my-table th,
+.my-table td {
+  padding: 8px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.my-table th {
+  background-color: #f2f2f2;
+  color: #6f4bc4;
+}
+
+.my-table tr.move-up {
+  transform: translateY(-50px);
+}
+
+.my-table tr.move-down {
+  transform: translateY(50px);
+}
+
+.modal-row {
+  display: flex;
+  align-items: center;
+}
+
+.select-width {
+  width: 400px;
+  height: 30px;
+}
+
+.modal-row input[type='text'] {
+  margin-right: 10px;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #6f4bc4;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.triple-dot-btn {
+  background: linear-gradient(to right, #ad55c0 0%, #6f4bc4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.custom-buttons button {
+  background-color: #6f4bc4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-buttons button:last-child {
+  margin-right: 0;
+}
+
+.custom-buttons button:hover {
+  background-color: #5b3992;
+}
+
+@keyframes move-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+
+@keyframes move-down {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+.modal-row span {
+  margin-right: 5px;
+  color: #6f4bc4;
+  font-weight: bold;
+}
+
+.modal-row span:last-child {
+  margin-right: 0;
+}

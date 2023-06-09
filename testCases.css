@@ -1,0 +1,167 @@
+.custom-container {
+
+  background: linear-gradient(45deg, #BB8DEF, #DCF9FF);
+  height: 100vh;
+  background-position: center;
+}
+
+
+
+
+.custom-content-container {
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+
+
+
+.custom-navbar {
+
+background-color: black;
+
+height: 80px;
+
+}
+
+
+
+
+.custom-page-header {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+margin-bottom: 20px;
+
+padding: 20px;
+
+}
+
+.custom-logo img{
+
+height: 90%;
+
+width: auto;
+
+}
+
+
+
+
+.custom-content {
+
+font-size: 1.7rem !important;
+
+font-weight: bold;
+display: flex;
+
+align-items: center;
+
+
+
+padding-left: 43%;
+
+
+
+}
+
+
+
+
+.custom-form-field {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.custom-name,
+.custom-description,
+.custom-url {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-label {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  margin-right: 0;
+  text-align: left;
+}
+
+
+
+
+
+input[type="text"]
+ {
+
+width: 80%;
+
+padding: 7px;
+
+border: 1px solid #ccc;
+
+border-radius: 10px;
+
+}
+.txtarea
+ {
+
+width: 80%;
+
+padding: 7px;
+
+border: 1px solid #ccc;
+
+border-radius: 10px;
+
+}
+
+.select-options{
+  width: 80%;
+
+padding: 7px;
+
+border: 1px solid #ccc;
+
+border-radius: 10px;
+}
+
+
+
+
+
+.custom-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.custom-can-btn {
+  margin-right: 30px;
+}
+
+.custom-can-btn button {
+  background: linear-gradient(to right, #ad55c0 0%, #6f4bc4 100%);;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.custom-can-btn button:hover {
+  background-color: #aaa;
+}
